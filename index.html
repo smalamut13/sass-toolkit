@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Sass Toolkit</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="assets/javascript/script.js"></script>
+</head>
+<body>
+<h1>SASS Front-End Toolkit</h1>
+<div class="headings">
+<h2>Headings look like this.</h2>
+<h3>This is what h3 looks like.</h3>
+<h4>This is what h4 looks like.</h4>
+<h5>This is what h5 looks like.</h5>
+<h6>Finally, this is what h6 looks like.</h6>
+</div>
+
+<p>Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+<br>
+<br>
+Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+
+<div class="special">
+	This is a special section of my code.  That is because it is in a div.  Div's are very helpful.
+</div>
+
+<div class="extra-special">
+	This is an extra special section of my code.  That is because it is in an extra special div!
+</div>
+
+<h4>List Types</h4>
+<ul class="ul">
+	<li class="li"><a href="#">About SASS</a></li>
+	<li class="li"><a href="#">SASS Usages</a></li>
+	<li class="li"><a href="#">More SASS</a></li>
+</ul>
+
+<ol class="numbers">
+	<li>In order to use SASS, you must make sure that it is installed.</li>
+	<li>Once installed, you have to set it up to watch the directory your .scss files are in so they can be compiled to CSS.</li>
+	<li>You can do this in the termainal.  The command is: $ sass --watch stylesheets:css.</li>
+</ol>
+
+<!-- form -->
+<form>
+	<fieldset class="account-info">
+		<label>
+			Username
+				<input type="text" name="username">
+		</label>
+		<label>
+			Password
+				<input type="password" name="password">
+		</label>
+	</fieldset>
+	
+	<fieldset class="account-action">
+		<input class="btn" type="submit" name="submit" value="Login">
+			<label>
+				<input type="checkbox" name="remember"> Stay signed in
+			</label>
+	</fieldset>
+</form>
+<br>
+<br>
+
+<!-- button -->
+<a class="button1" href="#">Button1</a>
+<a class="button2" href="#">Button2</a>
+<br>
+<br>
+
+<!-- option forms -->
+<div class="radio">
+	<input type="radio" name="day" value="Friday" checked> Friday
+	<input type="radio" name="day" value="Saturday" checked> Saturday
+	<input type="radio" name="day" value="Sunday" checked> Sunday
+</div>
+
+<div class="check">
+	<input type="checkbox" name="day" value="Friday" checked> Friday
+	<input type="checkbox" name="day" value="Saturday"> Saturday
+	<input type="checkbox" name="day" value="Sunday"> Sunday
+</div>
+ 
+ <div class="drop-down">
+ 	<select name="day">
+ 		<option value="Friday" selected>Friday</option>
+ 		<option value="Saturday">Saturday</option>
+ 		<option value="Sunday"> Sunday</option>
+ 	</select>
+</div>
+
+<div class="multiple drop-down">
+ 	<select name="day" multiple>
+ 		<option value="Friday" selected>Friday</option>
+ 		<option value="Saturday">Saturday</option>
+ 		<option value="Sunday"> Sunday</option>
+ 	</select>
+</div>
+<br>
+<br>
+<br>
+
+<!-- nav bar -->
+<div id="navbar">
+	<ul class="nav">
+		<li>
+			<a href="#" class="mainoption">Home</a>
+				<ul class="subnav hidden">
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Resume</a></li>
+					<li><a href="#">Portfolio</a></li>
+				</ul>
+		</li>
+		<li>
+			<a href="#" class="mainoption">Future Destinations</a>
+				<ul class="subnav hidden">
+					<li><a href="#">Turks and Caicos</a></li>
+					<li><a href="#">Atlantis, Bahamas</a></li>
+					<li><a href="#">Italy</a></li>
+					<li><a href="#">San Francisco</a></li>
+					<li><a href="#">Spain</a></li>
+				</ul>
+		</li>
+		<li>
+			<a href="#" class="mainoption">Favorite Guilty Pleasures</a>
+				<ul class="subnav hidden">
+					<li><a href="#">Chocolate</a></li>
+					<li><a href="#">Shopping</a></li>
+					<li><a href="#">Pizza</a></li>
+				</ul>
+		</li>
+	</ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+#navbar {
+	background-color: white;
+	height: 25px;
+	z-index: 2;
+}
+
+.mainoption {
+	color: rgba(0, 212, 124, 0.41);
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	padding-bottom: 0px;
+	display: inline;
+	width: 115px;
+	height: 30px;
+}
+
+.mainoption:hover {
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+}
+
+.subnav>li>a {
+	text-decoration: none;
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+
+.subnav>li>a:hover {
+	color: rgba(0, 212, 124, 0.41);
+}
+
+.nav > li:hover > a {
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+}
+
+ul.nav {
+	list-style: none;
+	text-align: center;
+	margin-top: -4px;
+	line-height: 2;
+	color: black;
+}
+
+.nav>li {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.nav > li:first-child {
+	margin-left: 0px;
+}
+
+ul .subnav {
+	background-color: white;
+	border-radius: 3px;
+	padding: 0px;
+	position: absolute;
+}
+
+.subnav li {
+	display: block;
+	border-style: solid;
+	border-color: #B5A3BD;
+	border-width: 1px;
+	line-height: 1;
+	width: 130px;
+    height: 27px;
+    text-align: left;
+}
+
+.subnav {
+	margin-left: 20px;
+}
+
+.hidden {
+	display: none;
+}

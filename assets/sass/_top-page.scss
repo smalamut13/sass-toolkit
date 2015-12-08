@@ -1,0 +1,30 @@
+body {
+	background:$background-color;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.headings {
+	font-style: italic;
+	font-family: "Courier New"
+}
+
+p {
+	font-family: "Tahoma";
+	padding: 50px;
+}
+
+.special {
+	background: rgba(12, 188, 241, 1);
+	color: white;
+}
+
+.extra-special {
+	@extend .special;
+	border: 3px solid black;
+	padding:$large-padding;
+	color: black;
+}
